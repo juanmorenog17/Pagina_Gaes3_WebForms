@@ -1,0 +1,246 @@
+
+/*Todo el documento*/
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*Cabecera*/
+.cabecera
+{
+
+    text-align: center;
+    margin: 0px;
+    padding-top: 300px;
+    padding-bottom: 0px;
+
+}
+
+/*Modificar letra*/
+.nombre
+{
+    background-color: #FCA311;
+    color: white;
+    /*border: 5px solid black;*/
+    padding: ;
+    font-size: 50px;
+}
+
+
+/*.cabecera img
+{
+    width: 300px;
+    height: 250px;
+}*/
+
+
+
+
+
+
+/*Division de la navegacion*/
+.divnav
+{
+    position: absolute; 
+    top: 5px;
+    bottom: ;
+    right: 5px;
+    left: ;
+}
+
+.navegacion ul li
+{
+
+    display: inline-block;
+    padding: 5px;
+    width: 90px;
+    /*border: 5px solid black;*/
+
+}
+
+
+/*Estilo de etiquetas "a"*/
+.navegacion a
+{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion a:hover
+{
+    color: #FCA311;
+}
+
+
+
+
+
+/*Agrupacion (div)*/
+.agrupacion 
+{
+    margin: auto auto;
+}
+
+
+
+/*Slider*/
+
+
+.slider {
+	width: 99%;
+    margin-bottom: 2%;
+	overflow: hidden;
+    text-align: center;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 95%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/*Fondo estatico de la pagina*/
+body
+{
+    background-image: url(/Imagenes/Image1.jpeg);
+    background-repeat: no-repeat; /*No se repite*/
+    background-size: 100% 100%; /*Tamaño*/
+    background-attachment: fixed; /*Posicion*/
+}
+
+
+/*Donde va mi contenido para que quede por encima*/
+.contenido
+{
+    background: #FFFFFF;
+    width: 100%;
+    /*padding-bottom: 18.7%;*/ /*Para que el fondo vaya hasta abajo*/
+    /*border: 1px solid red;*/
+}
+
+
+/*Contenido general*/
+.informacion
+{
+    text-align: center;
+    width: 92%%;
+    /*border: black solid 1px;*/
+    margin-bottom: 5%; 
+}
+
+
+/*Modificar por separado*/
+.contenido1
+{
+    margin: ;
+    width: 33%;
+    height: 370px;
+    /*background-color: thistle;*/
+    /*border: solid black 1px;*/
+}
+
+.contenido2
+{
+    margin: ;
+    width: 33%;
+    height: 370px;
+    /*background-color: thistle;*/
+    /*border: solid black 1px;*/
+}
+.contenido3
+{
+    margin: ;
+    width: 33%;
+    height: 370px;
+    /*background-color: thistle;*/
+    /*border: solid black 1px;*/
+}
+
+
+/*Modificar las imagenes*/
+.contenido1 img
+{
+    width: 97%;
+    height: 97%;
+    margin: 1%;
+}
+.contenido2 img
+{
+    width: 97%;
+    height: 97%;
+    margin: 1%;
+}
+.contenido3 img
+{
+    width: 97%;
+    height: 97%;
+    margin: 1%;
+}
+
+
+.contenido4
+{
+    margin: 1% 10%;
+    width: 80%;
+    /*background-color: thistle;*/
+    /*border: solid black 1px;*/
+}
+
+
+
+
+/*Que queden uno al lado del otro*/
+.contenido1, .contenido2, .contenido3
+{
+    display: inline-block;
+}
+
+
+
+/*Parrafo*/
+.parrafo
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+/*PIE DE PAGINA*/
+.piepag
+{
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 180px;
+    background-color: #14213D;
+    clear: both; /*Borrar la instruccion para que no se agrupe con la barra lateral*/
+}

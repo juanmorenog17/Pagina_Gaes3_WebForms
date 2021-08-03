@@ -1,0 +1,248 @@
+nosotros
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Caracteres especiales-->
+    <title>Nosotros</title>
+    <meta name="description" content="Sena CSF, Bogotá Colombia, Proyecto final, Pagina Web">
+    <meta name="keywords" content="Programas, Diseño web, Contabilidad, Programacion, Proyecto, GAES">
+    <link rel="icon" type="image/png" href="/img/logo_small_icon_only (1).png">
+    <link rel="stylesheet" href="/CSS/style-css_nosotros.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <div class="agrupacion">
+        <header class="cabeceraN">
+            <div class="nombre">
+                <b> NOSOTROS </b>
+            </div>
+            <!--<a href="#">Login</a>-->
+            <!--Imagen opcional-->
+            <!--<div>
+                <img src="C:\Users\Juan Moreno\OneDrive\Documentos\JUAN MANUEL MORENO GUEVARA\SENA\Programacion de Software 2021\Proyecto\PaginaWeb\Logo\logo_large1.png" alt="Banner Fast Dispatch" title="Banner Fast Dispatch">
+            </div>-->
+            <div class="divnav">
+                <nav class="navegacion">
+                    <ul>
+                        <li><a href="/HTML/Index.html"> Inicio </a></li>
+                        <li><a href="/HTML/Nosotros.html"> Nosotros </a></li>
+                        <li><a href="/HTML/serv.html"> Servicios </a></li>
+                        <li><a href="/HTML/Blog.html"> Blog </a></li>
+                        <li><a href="#"> Contacto </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="opacarcolor">
+
+            <article class="bannerN">
+                <img src="/Logo/logo_white_large.png" alt="Banner Fast Dispatch" title="Banner Fast Dispatch">
+            </article>
+            <div class="contenidogeneral">
+                <div class="informacionN">
+                    <article class="contenido1N">
+                        <h2>Mision</h2>
+                        <p>Llevar a nuestros clientes una solucion que impacte de manera positiva sus indicadores, ya
+                            sean economicos o de otra indole como optimizadores de tiempo y administracion de recursos.
+                            Queremos ser parte de la solucion y crecer de la mano de nuestros clientes,
+                            comprometiendonos en sus proyecciones empresariales.</p>
+                    </article>
+                    <article class="contenido2N">
+                        <h2>Visión</h2>
+                        <p>Para el 2025 ser una empresa legalmente constituida y reconocida como innovadores de
+                            soluciones tecnológicas enfocadas en el software empresarial, con una buena recomendacion
+                            por parte de nuestros aliados.</p>
+                    </article>
+                    <article class="contenido3N">
+                        <h2>Valores corporativos</h2>
+                        <p>Nuestros valores representan nuestra identidad como colectivo, y es que desde sus inicios
+                            hemos estado enfocados en: <br> <br>
+
+                            Honestidad con nuestros pares y clientes y
+                            transparencia en nuestros procesos.</p>
+                    </article>
+
+                </div>
+        </section>
+        <div class="piepag">
+            <footer>
+                <br>
+                © FAST DISPATCH <br>
+                GAES SENA <br>
+                2021 <br> <br>
+                Pagina diseñada con el proposito de mostrar la transformación de la creatividad al desarrollo web.
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+SERV
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"> <!--Caracteres especiales-->
+    <title>Servicios</title>
+        <meta name="description" content="Sena CSF, Bogotá Colombia, Proyecto final, Pagina Web">
+        <meta name="keywords" content="Programas, Diseño web, Contabilidad, Programacion, Proyecto, GAES">
+        <meta name="Author" content="John Alexander Rojas Rodriguez">
+        
+        <link rel="icon" type="image/png" href="img/Logo/logo_small_icon_only (1).png">
+        <link rel="stylesheet" href="/CSS/estilosserv.css">
+
+</head>
+<body>
+    <div class="agrupacion" > 
+        
+        <header class="cabecera" class="imagenCabecera">
+
+       
+           
+            <div class="divnav" >
+               
+                <nav class="navegacion"  >
+                   
+                    <ul>
+                        
+                        <li><a href="/HTML/Index.html"> Inicio </a></li>
+                        <li><a href="/HTML/Nosotros.html"> Nosotros </a></li>
+                        <li><a href="/HTML/serv.html"> Servicios </a></li>
+                        <li><a href="/HTML/Blog.html"> Blog </a></li>
+                        <li><a href="#"> Contacto </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="nombre">
+                <b> Servicios </b>
+            </div>
+        </header>
+        
+        <div class="contenido">
+            <section>      
+                  
+                <div class="container" >
+                    
+                            <ul class="slider">
+                                    <li id="slide1">
+                                        <img src="/Imagenes/clientes.jpeg"/>
+                                    </li>
+
+                                    <li id="slide2" >
+                                    <h1 >Clientes</h1>
+                                    <p> Implementar el módulo de clientes le permitirá tener la información indexada 
+                                         en la base de datos permitiéndole proyectar el área de mercadeo de una manera más óptima, 
+                                        controlando los medios de pago, satisfacción del cliente y activos económicos en base a su interacción.</p>
+                                    </li>
+
+                                    <li id="slide3">
+                                        <img src="/Imagenes/Despacho.jpg"/>
+                                    </li>
+
+                                    <li id="slide4">
+                                    <h1>Despachos</h1>
+                                    <p>Implementar el módulo de despachos por medio de tikets,
+                                       permitira la trazabilidad del flujo del pedido desde el ingreso de la orden emitida por el vendedor,
+                                       hasta la puesta en sitio de las mercancías, teniendo un control en tiempo real del estado del requerimiento.</p>
+                        
+                                    <li id="slide5">
+                                    <img src="/Imagenes/inventarios.jpg">
+                                    </li>
+
+                                    <li id="slide6">
+                                    <h1>Inventarios</h1>
+                                    <p>Nuestro desarrollo del módulo de inventarios le permitira que los despachos no tengan demora en alistamiento por la mala organización
+                                       de la bodega y las decisiones tardías que genera no tener claro cuál mercancía debe salir primero (PEPS).</p>
+
+                                    <li id="slide7">
+                                    <img src="/Imagenes/facturacion.png">
+                                    </li>
+
+                                    <li id="slide8">
+                                    <h1>Facturación</h1>
+                                    <p>Contamos con el módulo de facturación  para clientes y proveedores .</p>
+
+                                    <li id="slide9">
+                                    <img src="/Imagenes/proveedores.jpg">
+                                    </li>
+    
+                                    <li id="slide10">
+                                    <h1>Proveedores</h1>
+                                    <p>Controlar los proveedores y sus existencias en las sus bodegas, 
+                                       le permite gestionar de la manera más adecuada los insumos y por ende la logística empresarial,
+                                       también podrá saber el estado real de la empresa en cuanto a deudas y activos.</p>
+                                    
+                      </li>
+                    </ul>
+                    
+                    <ul class="menu">
+                      <li>
+                        <a href="#slide1">1</a>
+                      </li>
+                      <li>
+                        <a href="#slide2">2</a>
+                      </li>
+                       <li>
+                        <a href="#slide3">3</a>
+                      </li>
+                      <li>
+                        <a href="#slide4">4</a>
+                      </li>
+                      <li>
+                        <a href="#slide5">5</a>
+                      </li>
+                      <li>
+                        <a href="#slide6">6</a>
+                      </li>
+                      <li>
+                        <a href="#slide7">7</a>
+                      </li>
+                      <li>
+                        <a href="#slide8">8</a>
+                      </li>
+                      <li>
+                        <a href="#slide9">9</a>
+                      </li>
+                      <li>
+                        <a href="#slide10">10</a>
+                      </li>
+                    </ul>
+                  </div>
+                            
+                  </article>
+                </div>
+            </section>
+                <div class="piepag">
+                <footer>
+                    <br>
+                    © FAST DISPATCH <br>
+                    GAES SENA <br>
+                    2021 <br> 
+                    Página diseñada con el proposito de mostrar la transformación de la creatividad al desarrollo web.
+                </footer>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</font>
+</html>

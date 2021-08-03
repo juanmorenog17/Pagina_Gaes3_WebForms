@@ -1,0 +1,278 @@
+/*Todo el documento*/
+*
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*Cabecera*/
+.cabecera
+{
+
+    text-align: center;
+    margin: 0px;
+    padding-top: 300px;
+    padding-bottom: 0px;
+
+}
+.cabeceraN
+{
+
+    text-align: center;
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+
+}
+
+/*Modificar letra*/
+.nombre
+{
+    background-color: #FCA311;
+    color: white;
+    /*border: 5px solid black;*/
+    padding:0;
+    font-size: 40px;
+}
+
+
+/*.cabecera img
+{
+    width: 300px;
+    height: 250px;
+}*/
+
+
+
+
+
+
+/*Division de la navegacion*/
+.divnav
+{
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    right: 5px;
+    left: 0;
+}
+
+.navegacion ul li
+{
+
+    display: inline-block;
+    padding: 5px;
+    width: 90px;
+    border: none;
+
+}
+
+
+/*Estilo de etiquetas "a"*/
+.navegacion a
+{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+
+.navegacion a:hover
+{
+    color: #FCA311;
+}
+
+.opacarcolor
+{
+    background-color: #14213D;
+    opacity: 0.8;
+}
+
+/*Agrupacion (div)*/
+.agrupacion
+{
+    margin: auto auto;
+}
+
+
+
+/*Seccion (Banner)*/
+.bannerN
+{
+    text-align: center;
+    margin-bottom: 5%;
+    border: 0;
+    opacity: 0.5;
+}
+
+.bannerN img
+{
+    width: 60%;
+    height: 500px;
+}
+
+/*Fondo estatico de la pagina*/
+body
+{
+    background-image: url(/Imagenes/Image1.jpeg);
+    background-repeat: no-repeat; /*No se repite*/
+    background-size: 100% 100%; /*Tamaño*/
+    background-attachment: fixed; /*Posicion*/
+}
+
+
+/*Donde va mi contenido para que quede por encima*/
+.contenido
+{
+    background: #FFFFFF;
+    width: 100%;
+    /*padding-bottom: 18.7%;*/ /*Para que el fondo vaya hasta abajo*/
+    /*border: 1px solid red;*/
+}
+
+
+/*Contenido general*/
+.informacion
+{
+    text-align: center;
+    width: 92%;
+    border: black solid 1px;
+    margin-bottom: 18.5%;
+}
+
+
+/*Modificar por separado*/
+.contenido1
+{
+    margin: 0;
+    width: 33%;
+    height: 300px;
+    /*background-color: thistle;*/
+    /*border: solid black 1px;*/
+}
+
+.contenido2
+{
+    margin: 0;
+    width: 33%;
+    height: 300px;
+    /*background-color: thistle;*/
+    /*border: solid black 1px;*/
+}
+.contenido3
+{
+    margin: 0;
+    width: 33%;
+    height: 300px;
+    /*background-color: thistle;*/
+    /*border: solid black 1px;*/
+}
+
+/*las clases terminadas en "N" pertenecen a la pagina Nosotros*/
+.informacionN
+{
+    
+    text-align: center;
+    width: 100%;
+    border:none;
+    
+}
+
+
+.contenido1N
+{
+    display: inline-block;
+    border-style: solid;
+    color: #FFFFFF;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: 50px;
+    width: 30%;
+    height: none;
+    text-align: center;
+    /*background-color: thistle;*/
+    /*border: solid black 1px;*/
+}
+
+.contenido2N
+{
+    display: inline-block;
+    border-style: solid;
+    color: #FFFFFF;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: 50px;
+    width: 30%;
+    height: none;
+    text-align: center;
+    
+}
+.contenido3N
+{
+    display: inline-block;
+    color: #FFFFFF;
+    border-style: solid;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: 50px;
+    width: 30%;
+    height: none;
+    text-align: center;
+    
+}
+
+
+
+/*Modificar las imagenes*/
+.contenido1 img
+{
+    width: 97%;
+    height: 97%;
+    margin: 1%;
+}
+.contenido2 img
+{
+    width: 97%;
+    height: 97%;
+    margin: 1%;
+}
+.contenido3 img
+{
+    width: 97%;
+    height: 97%;
+    margin: 1%;
+}
+
+
+.contenido4
+{
+    margin: 1% 10%;
+    width: 80%;
+    /*background-color: thistle;*/
+    border: solid black 1px;
+}
+
+
+
+
+/*Que queden uno al lado del otro*/
+.contenido1, .contenido2, .contenido3
+{
+    display: inline-block;
+}
+
+
+
+/*Barra Opcional*/
+
+
+/*PIE DE PAGINA*/
+.piepag
+{
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 180px;
+    background-color: #14213D;
+    clear: both; /*Borrar la instruccion para que no se agrupe con la barra lateral*/
+}
+
+
